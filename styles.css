@@ -1,0 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:500,700,800');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,700,800');
+
+h1, h2, h3, h4, h5, h6, p, a {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-weight: 500;
+  margin-bottom: 5%;
+}
+
+
+
+.flow-text{
+    font-family: 'Roboto Mono', ;
+}
+
+
+body{
+    background: linear-gradient(to left top, #b8b5b5, white);
+}
