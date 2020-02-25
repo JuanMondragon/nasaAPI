@@ -9,9 +9,11 @@ fetch(`${apodUrl}`)
 
     let media ="";
     if(data.media_type ==="image"){
-        media =`<img src="${data.url}">`
+        media =`<img class ="responsive-img" src="${data.url}">`
     } else {
-        media=`<iframe src="${data.url}"`
+        media=`<div class ="video-container">
+            <iframe src="${data.url}" width="560" height="315"></iframe>
+            </div>`
 
     }
 
